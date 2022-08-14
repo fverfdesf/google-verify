@@ -1,0 +1,26 @@
+<% if(error_message != "") { %>
+<div class="alert alert-danger d-flex align-items-center" role="alert">
+
+    <div>
+        <%= error_message %>
+    </div>
+</div>
+<% } %>
+
+<% if(success_message != "") { %>
+<div class="alert alert-danger d-flex align-items-center" role="alert">
+
+    <div>
+        <%= success_message %>
+    </div>
+</div>
+<% } %>
+
+<% if(error != "") { %>
+<div class="alert alert-danger d-flex align-items-center" role="alert">
+
+    <div>
+        <%= error %>
+    </div>
+</div>
+<% } %>
